@@ -6,14 +6,40 @@
 
 body {
     background-color: #7bfaf3;
-    font-family: "Poppins", sans-serif;
+    display: flex;
     flex-wrap: wrap;
+    font-family: "Poppins", sans-serif;
     margin: 0;
 }
 
 .notes {
     background-color: #fff;
-    width: 500px;
+    width: 400px;
     height: 400px;  
+    margin: 20px;
+}
 
+.notes .tools {
+    background-color: #9ec862;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5rem;
+}
+.notes .tools button {
+    background-color: transparent;
+    border: none;
+    color:#fff;
+    font-size: 1rem;
+    margin-left: 0.5rem;
+}
+
+.notes .main{
+    height: 100%;
+    width: 100%;
+}
+
+.notes textarea {
+    border: none;
+    height: 100%;
+    width: 100%;
 }
