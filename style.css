@@ -5,6 +5,15 @@
 }
 
 body {
+    background-color: #7bfaf3;
     font-family: "Poppins", sans-serif;
+    flex-wrap: wrap;
     margin: 0;
+}
+
+.notes {
+    background-color: #fff;
+    width: 500px;
+    height: 400px;  
+
 }
